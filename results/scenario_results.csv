@@ -1,0 +1,6 @@
+condition,hosts_in_scope,forged_arp_claims_sent,forged_claims_dropped_by_dai,forged_claims_accepted,hosts_redirected,sensitive_flows_generated,cleartext_flows_visible_to_attacker,synthetic_credentials_exposed,application_payload_tampering_possible,encrypted_flow_metadata_observable,availability_disruption_still_possible
+Baseline / no attacker,8,0,0,0,0,24,0,0,false,0,false
+ARP MITM / HTTP,8,16,0,16,8,24,24,8,true,0,true
+ARP MITM / TLS validated,8,16,0,16,8,24,0,0,false,24,true
+DAI + snooping / HTTP,8,16,16,0,0,24,0,0,false,0,false
+Layered: DAI + TLS + HSTS,8,16,16,0,0,24,0,0,false,0,false

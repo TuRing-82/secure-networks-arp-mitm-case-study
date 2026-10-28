@@ -1,0 +1,8 @@
+SIMULATION COMPLETE - SYNTHETIC DATA ONLY
+Condition                        Redirected    Secrets  DAI drops
+Baseline / no attacker                    0          0          0
+ARP MITM / HTTP                           8          8          0
+ARP MITM / TLS validated                  8          0          0
+DAI + snooping / HTTP                     0          0         16
+Layered: DAI + TLS + HSTS                 0          0         16
+No network packets sent. Results written to C:\Users\AKSHAT\Desktop\SecureAsssignment\results

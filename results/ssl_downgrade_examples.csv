@@ -1,0 +1,3 @@
+client_profile,HSTS_known_or_preloaded,result,sensitive_cleartext_possible
+Legacy app that permits HTTP fallback,False,Downgrade accepted in model,True
+Conforming browser with HSTS policy,True,HTTP blocked / HTTPS required,False

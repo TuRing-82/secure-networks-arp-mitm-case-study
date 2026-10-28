@@ -1,0 +1,35 @@
+{
+  "title": "Offline ARP MITM teaching simulation",
+  "course": "23CSE336 Secure Networks",
+  "synthetic_data": true,
+  "network_traffic_sent": false,
+  "real_credentials_used": false,
+  "model_id": 336,
+  "hosts": [
+    "192.168.40.51",
+    "192.168.40.52",
+    "192.168.40.53",
+    "192.168.40.54",
+    "192.168.40.55",
+    "192.168.40.56",
+    "192.168.40.57",
+    "192.168.40.58"
+  ],
+  "gateway_ip": "192.168.40.1",
+  "gateway_mac": "00:1A:2B:3C:4D:5E",
+  "attacker_mac": "AA:BB:CC:DD:EE:FF",
+  "sensitive_flows_per_redirected_host": 3,
+  "scope_note": "Illustrative model results, not measurements from Ashwin Holdings or any production network.",
+  "run_utc": "2026-10-28T06:34:14.699152+00:00",
+  "files": [
+    "scenario_results.csv",
+    "event_log.csv",
+    "ssl_downgrade_examples.csv",
+    "01_simulation_results.png",
+    "02_frame_change.png",
+    "03_defense_comparison.png",
+    "04_terminal_results.png",
+    "05_host_scenario_heatmap.png",
+    "06_control_outcome_heatmap.png"
+  ]
+}
